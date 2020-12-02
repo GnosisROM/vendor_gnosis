@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- DEVICE -->
+  <project name="Aeon_Horos/android_device_lge_bullhead" path="device/lge/bullhead" remote="gitlab" revision="du" />
+  <project name="Aeon_Horos/device_lge_bullhead-vendorimage" path="device/lge/bullhead-vendorimage" remote="gitlab" revision="pie" />
+
+<!-- VENDOR -->
+  <!--project name="Aeon_Horos/vendor_lge_bullhead" path="vendor/lge/bullhead" remote="gitlab" revision="du" />
+  <project name="Aeon_Horos/vendor_gnosis" path="vendor/gnosis" remote="gitlab" revision="du" /-->
+
+<!-- KERNEL -->
+  <project name="Aeon_Horos/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="gitlab" revision="pie" />
+
+<!-- FRAMEWORK -->
+  <project name="Aeon_Horos/frameworks_av" path="frameworks/av" remote="gitlab" revision="du" />
+  <!--project name="Aeon_Horos/frameworks_base" path="frameworks/base" remote="gitlab" revision="du" /-->
+  <!--project name="Aeon_Horos/frameworks_native" path="frameworks/native" remote="gitlab" revision="du" /-->
+  <!--project  name="Aeon_Horos/hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="gitlab" revision="pie" /-->
+
+  <project name="Aeon_Horos/bionic" path="bionic" remote="gitlab" revision="du" />
+
+<!-- PACKAGES -->
+  <!--project name="Aeon_Horos/packages_apps_DU-Tweaks" path="packages/apps/DU-Tweaks" remote="gitlab" revision="du" /-->
+  <project name="Aeon_Horos/packages_apps_Messaging" path="packages/apps/Messaging" remote="gitlab" revision="du" />
+  <!--project name="Aeon_Horos/packages_apps_Settings" path="packages/apps/Settings" remote="gitlab" revision="du" /-->
+
+  <!--project name="LineageOS/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="lineage-16.0" /-->
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" />
+<!--GCC-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="Aeon_Horos/prebuilt_gcc_linaro" remote="gitlab" revision="pie" />
+
+  <!--project path="external/busybox" name="OmniROM/android_external_busybox" remote="github" revision="android-7.1" />
+  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-9.0" /-->
+
+</manifest>
