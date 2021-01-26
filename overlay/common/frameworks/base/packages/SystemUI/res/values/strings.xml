@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Theme tile -->
-    <string name="system_theme_style_dark">Gnosis</string>
-    <string name="systemui_overlay_dark">Gnosis</string>
-
-</resources>
