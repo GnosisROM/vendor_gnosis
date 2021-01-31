@@ -76,5 +76,10 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
+
 # Gapps
 $(call inherit-product, vendor/gapps/common/common-vendor.mk)
