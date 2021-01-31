@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
 
 # Gapps
 $(call inherit-product, vendor/gapps/common/common-vendor.mk)

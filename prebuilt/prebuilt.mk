@@ -33,9 +33,4 @@ PRODUCT_COPY_FILES += \
 
 #OVERLAY
 PRODUCT_COPY_FILES += \
-	vendor/gnosis/prebuilt/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk:product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk \
-	vendor/gnosis/prebuilt/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk:product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk \
-	vendor/gnosis/prebuilt/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk:product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk \
-	vendor/gnosis/prebuilt/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk:product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk \
-	vendor/gnosis/prebuilt/overlay/HideNavBar.apk:product/overlay/HideNavBar.apk
 
