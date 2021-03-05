@@ -30,6 +30,9 @@
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
+        <!-- Cached app freezer on supported devices -->
+        <item>activity_manager_native_boot/use_freezer=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
@@ -44,7 +47,7 @@
         <item>device_personalization_services/Captions__visibility_stopped_duration_millis=1500</item>
 
         <!-- Now Playing (Pixel 2017) -->
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=159:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20201207-000000/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=167:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20210221-030046/manifest.json</item>
 
         <!-- Adaptive Sound (Pixel 2020) -->
         <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
