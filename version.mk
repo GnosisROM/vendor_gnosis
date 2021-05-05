@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_ROM_VERSION := GnosisROM-11.0.0_r34
+CUSTOM_ROM_VERSION := GnosisROM-11.0.0_r37
 
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.build.version.custom=$(CUSTOM_ROM_VERSION)
