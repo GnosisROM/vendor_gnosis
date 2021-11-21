@@ -88,6 +88,12 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden \
+
 # Gapps
 ifeq ($(WITH_GMS),true)
 
